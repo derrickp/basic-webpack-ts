@@ -1,0 +1,14 @@
+{
+  "name": "basic-webpack-ts",
+  "version": "1.0.0",
+  "description": "A basic webpack project for Typescript.",
+  "main": "index.js",
+  "repository": "https://github.com/derrickp/basic-webpack-ts.git",
+  "author": "Derrick Plotsky <derrickplotsky@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  }
+}
