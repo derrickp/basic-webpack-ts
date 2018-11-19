@@ -1,15 +1,13 @@
 {
   "compilerOptions": {
-      "module": "es2015",
-      "noImplicitAny": true,
-      "preserveConstEnums": true,
-      "sourceMap": true
+    "module": "es6",
+    "target": "esnext",
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "esModuleInterop": true
   },
-  "include": [
-      "src/**/*"
-  ],
-  "exclude": [
-      "node_modules",
-      "**/*.spec.ts"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
